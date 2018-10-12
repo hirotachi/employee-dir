@@ -1,0 +1,16 @@
+.loading{
+  display: inline-block;
+  border: 10px solid #eee;
+  border-bottom: 10px solid grey;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  animation: loading 1.4s linear infinite;
+  position: absolute;
+  top: 25rem;
+  left: 12rem;
+  @media(min-width: 769px){
+    top: 35%;
+    left: 45%;
+  }
+}

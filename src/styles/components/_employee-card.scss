@@ -1,0 +1,49 @@
+.employee-card{
+  border: 1px solid $off-white;
+  background-color: rgba(255, 255, 255, 0.5);
+  flex-basis: 300px;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, .4);
+  flex-basis: 25%;
+  margin: 1rem;
+  cursor: pointer;
+  &:hover{
+    box-shadow: 0 4px 6px rgba(0, 0, 0, .4);
+  }
+  
+}
+
+.avatar{
+  width: 35%;
+  border-radius: 50%;
+}
+
+.info{
+  margin: 0 1rem;
+  text-align: left;
+}
+.name{
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: $off-grey;
+}
+
+.email{
+  font-size: 1.1rem;
+  @media(min-width: 769px){
+    font-size: 1.2rem;
+    margin: .5rem 0;
+  }
+}
+.extra{
+  font-size: 1.3rem;
+  color: $off-white;
+  .city{
+    margin: 10px 0;
+    text-transform: capitalize;
+  }
+}

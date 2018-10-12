@@ -1,0 +1,13 @@
+.employee-list{
+  margin: 0 auto;
+  display: grid;
+  @media(min-width: 769px){
+    width: 80%;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  @media(max-width: 769px)and (min-width: 480px){
+    grid-template-columns: repeat(2, 1fr);
+    // background: red;
+  }
+  
+}
