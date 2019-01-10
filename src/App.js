@@ -15,6 +15,7 @@ class App extends Component{
       filterd: [],
       selected: undefined
     }
+    console.log(__dirname);
     fetch("https://randomuser.me/api/?results=12&nat=us")
     .then(res => res.json())
     .then(data => this.setState(() => ({employees: data.results})))
